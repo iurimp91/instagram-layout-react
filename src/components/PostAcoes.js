@@ -1,10 +1,16 @@
 export default function PostAcoes() {
+  const arrayIcones = [
+    "heart-outline",
+    "chatbubble-outline",
+    "paper-plane-outline",
+  ];
+
   return (
     <div class="acoes">
       <div>
-        <ion-icon name="heart-outline"></ion-icon>
-        <ion-icon name="chatbubble-outline"></ion-icon>
-        <ion-icon name="paper-plane-outline"></ion-icon>
+        {arrayIcones.map((item) => (
+          <ion-icon name={item}></ion-icon>
+        ))}
       </div>
       <div>
         <ion-icon name="bookmark-outline"></ion-icon>

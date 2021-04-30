@@ -5,7 +5,11 @@ export default function PostFundo(props) {
   return (
     <div class="fundo">
       <PostAcoes />
-      <PostCurtidas img={props.img} usuario={props.usuario} curtidas={props.curtidas} />
+      <PostCurtidas
+        img={props.img}
+        usuario={props.usuario}
+        curtidas={props.curtidas}
+      />
     </div>
   );
 }
