@@ -2,7 +2,7 @@ export default function Sugestoes() {
   const arraySugestoes = [
     {
       img: "assets/img/bad.vibes.memes.svg",
-      nome: "bad.vibe.memes",
+      nome: "bad.vibes.memes",
       razao: "Segue você",
     },
     {
@@ -23,6 +23,11 @@ export default function Sugestoes() {
     {
       img: "assets/img/smallcutecats.svg",
       nome: "smallcutecats",
+      razao: "Segue você",
+    },
+    {
+      img: "assets/img/iuri.jpg",
+      nome: "iurimagnagopinto",
       razao: "Segue você",
     },
   ];

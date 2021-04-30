@@ -20,6 +20,14 @@ export default function Posts() {
       PostFundoUsuario: "adorable_animals",
       PostFundoCurtidas: "99.159",
     },
+    {
+      PostTopoImg: "assets/img/9gag.svg",
+      PostTopoUsuario: "9gag",
+      PostConteudo: "assets/img/post-9gag.jpg",
+      PostFundoImg: "assets/img/memeriagourmet.svg",
+      PostFundoUsuario: "memeriagourmet",
+      PostFundoCurtidas: "17.367",
+    },
   ];
 
   return (
